@@ -22,7 +22,7 @@ $dbh = new sdbh();
                 <div class="col-12">
                     <h4>Форма расчета:</h4>
                     <?php
-                        include '../project/form/form.php';
+                        include 'form/form.php';
                     ?>
                     <p></p>
                 </div>
