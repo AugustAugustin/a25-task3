@@ -27,7 +27,7 @@ function getTotalCost()
         $tariff = getTariff($days, $tariffs);
         $productCost = $tariff * $days;
     } else {
-        $productCost = $product['PRICE'];
+        $productCost = $product['PRICE'] * $days;
     }
     $additionalCost = 0;
     if (!empty($data['additional'])) {
